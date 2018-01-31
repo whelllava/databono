@@ -118,6 +118,14 @@ class Adabter extends RecyclerView.Adapter<Adabter.ViewHolder> {
     public void onBindViewHolder(ViewHolder holder, int position) {
         holder.readuser.setText(model.get(position).getName());
         holder.emaiuser.setText(model.get(position).getEmail());
+
+        switch (model.get(position).getGender()){
+            case 0:
+                holder.genderimg.setImageResource(R.drawable.male);
+                break;
+            case 1:
+                holder.genderimg.setImageResource(R.drawable.female);
+        }
         holder.genderimg.setImageResource(model.get(position).getGender());
         holder.profileimg.setImageResource(R.drawable.ic_launcher_background);
 

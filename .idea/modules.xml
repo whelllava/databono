@@ -3,7 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://C:\Users\Lamba\Desktop\android projects\databono\app\app.iml" filepath="C:\Users\Lamba\Desktop\android projects\databono\app\app.iml" />
       <module fileurl="file://$PROJECT_DIR$/databono.iml" filepath="$PROJECT_DIR$/databono.iml" />
+      <module fileurl="file://C:\Users\Lamba\Desktop\android projects\databono\databono.iml" filepath="C:\Users\Lamba\Desktop\android projects\databono\databono.iml" />
     </modules>
   </component>
 </project>
